@@ -1,0 +1,416 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		88EE2A47F8A7DE1C88510CBC /* libPods-CRConfirmOrder.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 948AC806DBC677E320B5072E /* libPods-CRConfirmOrder.a */; };
+		FC1923B71E24E58C0036C9D5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FC1923B61E24E58C0036C9D5 /* main.m */; };
+		FC1923BA1E24E58C0036C9D5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FC1923B91E24E58C0036C9D5 /* AppDelegate.m */; };
+		FC1923BD1E24E58C0036C9D5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC1923BC1E24E58C0036C9D5 /* ViewController.m */; };
+		FC1923C01E24E58C0036C9D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC1923BE1E24E58C0036C9D5 /* Main.storyboard */; };
+		FC1923C21E24E58C0036C9D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC1923C11E24E58C0036C9D5 /* Assets.xcassets */; };
+		FC1923C51E24E58C0036C9D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC1923C31E24E58C0036C9D5 /* LaunchScreen.storyboard */; };
+		FC1923CF1E24E5D80036C9D5 /* CRConfirmOrderServiceProvide.m in Sources */ = {isa = PBXBuildFile; fileRef = FC1923CE1E24E5D80036C9D5 /* CRConfirmOrderServiceProvide.m */; };
+		FC1923D21E24E5FB0036C9D5 /* CRConfirmOrderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC1923D11E24E5FB0036C9D5 /* CRConfirmOrderViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		55C61E7D41E5D6DE4BE8013C /* Pods-CRConfirmOrder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CRConfirmOrder.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CRConfirmOrder/Pods-CRConfirmOrder.debug.xcconfig"; sourceTree = "<group>"; };
+		8F0ED75D2CE4FB316420B67F /* Pods-CRConfirmOrder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CRConfirmOrder.release.xcconfig"; path = "Pods/Target Support Files/Pods-CRConfirmOrder/Pods-CRConfirmOrder.release.xcconfig"; sourceTree = "<group>"; };
+		948AC806DBC677E320B5072E /* libPods-CRConfirmOrder.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CRConfirmOrder.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC1923B21E24E58C0036C9D5 /* CRConfirmOrder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CRConfirmOrder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC1923B61E24E58C0036C9D5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FC1923B81E24E58C0036C9D5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FC1923B91E24E58C0036C9D5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FC1923BB1E24E58C0036C9D5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FC1923BC1E24E58C0036C9D5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FC1923BF1E24E58C0036C9D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FC1923C11E24E58C0036C9D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FC1923C41E24E58C0036C9D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FC1923C61E24E58C0036C9D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC1923CD1E24E5D80036C9D5 /* CRConfirmOrderServiceProvide.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRConfirmOrderServiceProvide.h; sourceTree = "<group>"; };
+		FC1923CE1E24E5D80036C9D5 /* CRConfirmOrderServiceProvide.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRConfirmOrderServiceProvide.m; sourceTree = "<group>"; };
+		FC1923D01E24E5FB0036C9D5 /* CRConfirmOrderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRConfirmOrderViewController.h; sourceTree = "<group>"; };
+		FC1923D11E24E5FB0036C9D5 /* CRConfirmOrderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRConfirmOrderViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC1923AF1E24E58C0036C9D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88EE2A47F8A7DE1C88510CBC /* libPods-CRConfirmOrder.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A3B163D25F3294A1E21BEFC9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				948AC806DBC677E320B5072E /* libPods-CRConfirmOrder.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C540803E9C4786ECFEC1A421 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				55C61E7D41E5D6DE4BE8013C /* Pods-CRConfirmOrder.debug.xcconfig */,
+				8F0ED75D2CE4FB316420B67F /* Pods-CRConfirmOrder.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FC1923A91E24E58C0036C9D5 = {
+			isa = PBXGroup;
+			children = (
+				FC1923B41E24E58C0036C9D5 /* CRConfirmOrder */,
+				FC1923B31E24E58C0036C9D5 /* Products */,
+				C540803E9C4786ECFEC1A421 /* Pods */,
+				A3B163D25F3294A1E21BEFC9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FC1923B31E24E58C0036C9D5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC1923B21E24E58C0036C9D5 /* CRConfirmOrder.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC1923B41E24E58C0036C9D5 /* CRConfirmOrder */ = {
+			isa = PBXGroup;
+			children = (
+				FC1923CC1E24E5BB0036C9D5 /* CRConfirmOrder */,
+				FC1923B81E24E58C0036C9D5 /* AppDelegate.h */,
+				FC1923B91E24E58C0036C9D5 /* AppDelegate.m */,
+				FC1923BB1E24E58C0036C9D5 /* ViewController.h */,
+				FC1923BC1E24E58C0036C9D5 /* ViewController.m */,
+				FC1923BE1E24E58C0036C9D5 /* Main.storyboard */,
+				FC1923C11E24E58C0036C9D5 /* Assets.xcassets */,
+				FC1923C31E24E58C0036C9D5 /* LaunchScreen.storyboard */,
+				FC1923C61E24E58C0036C9D5 /* Info.plist */,
+				FC1923B51E24E58C0036C9D5 /* Supporting Files */,
+			);
+			path = CRConfirmOrder;
+			sourceTree = "<group>";
+		};
+		FC1923B51E24E58C0036C9D5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FC1923B61E24E58C0036C9D5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FC1923CC1E24E5BB0036C9D5 /* CRConfirmOrder */ = {
+			isa = PBXGroup;
+			children = (
+				FC1923CD1E24E5D80036C9D5 /* CRConfirmOrderServiceProvide.h */,
+				FC1923CE1E24E5D80036C9D5 /* CRConfirmOrderServiceProvide.m */,
+				FC1923D01E24E5FB0036C9D5 /* CRConfirmOrderViewController.h */,
+				FC1923D11E24E5FB0036C9D5 /* CRConfirmOrderViewController.m */,
+			);
+			path = CRConfirmOrder;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC1923B11E24E58C0036C9D5 /* CRConfirmOrder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC1923C91E24E58C0036C9D5 /* Build configuration list for PBXNativeTarget "CRConfirmOrder" */;
+			buildPhases = (
+				64B78CED34767A98929BD69E /* [CP] Check Pods Manifest.lock */,
+				FC1923AE1E24E58C0036C9D5 /* Sources */,
+				FC1923AF1E24E58C0036C9D5 /* Frameworks */,
+				FC1923B01E24E58C0036C9D5 /* Resources */,
+				E990DE3E2B8767458BACE902 /* [CP] Embed Pods Frameworks */,
+				267EB5166DACDC9DAF641D1E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CRConfirmOrder;
+			productName = CRConfirmOrder;
+			productReference = FC1923B21E24E58C0036C9D5 /* CRConfirmOrder.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC1923AA1E24E58C0036C9D5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "牛投邦";
+				TargetAttributes = {
+					FC1923B11E24E58C0036C9D5 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = J46HYNA3T9;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = FC1923AD1E24E58C0036C9D5 /* Build configuration list for PBXProject "CRConfirmOrder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FC1923A91E24E58C0036C9D5;
+			productRefGroup = FC1923B31E24E58C0036C9D5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC1923B11E24E58C0036C9D5 /* CRConfirmOrder */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC1923B01E24E58C0036C9D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC1923C51E24E58C0036C9D5 /* LaunchScreen.storyboard in Resources */,
+				FC1923C21E24E58C0036C9D5 /* Assets.xcassets in Resources */,
+				FC1923C01E24E58C0036C9D5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		267EB5166DACDC9DAF641D1E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CRConfirmOrder/Pods-CRConfirmOrder-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		64B78CED34767A98929BD69E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E990DE3E2B8767458BACE902 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CRConfirmOrder/Pods-CRConfirmOrder-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC1923AE1E24E58C0036C9D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC1923BD1E24E58C0036C9D5 /* ViewController.m in Sources */,
+				FC1923BA1E24E58C0036C9D5 /* AppDelegate.m in Sources */,
+				FC1923D21E24E5FB0036C9D5 /* CRConfirmOrderViewController.m in Sources */,
+				FC1923CF1E24E5D80036C9D5 /* CRConfirmOrderServiceProvide.m in Sources */,
+				FC1923B71E24E58C0036C9D5 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FC1923BE1E24E58C0036C9D5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC1923BF1E24E58C0036C9D5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FC1923C31E24E58C0036C9D5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC1923C41E24E58C0036C9D5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FC1923C71E24E58C0036C9D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FC1923C81E24E58C0036C9D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FC1923CA1E24E58C0036C9D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55C61E7D41E5D6DE4BE8013C /* Pods-CRConfirmOrder.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = J46HYNA3T9;
+				INFOPLIST_FILE = CRConfirmOrder/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.newbanker.CRConfirmOrder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FC1923CB1E24E58C0036C9D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F0ED75D2CE4FB316420B67F /* Pods-CRConfirmOrder.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = J46HYNA3T9;
+				INFOPLIST_FILE = CRConfirmOrder/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.newbanker.CRConfirmOrder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC1923AD1E24E58C0036C9D5 /* Build configuration list for PBXProject "CRConfirmOrder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC1923C71E24E58C0036C9D5 /* Debug */,
+				FC1923C81E24E58C0036C9D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC1923C91E24E58C0036C9D5 /* Build configuration list for PBXNativeTarget "CRConfirmOrder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC1923CA1E24E58C0036C9D5 /* Debug */,
+				FC1923CB1E24E58C0036C9D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FC1923AA1E24E58C0036C9D5 /* Project object */;
+}

@@ -1,0 +1,15 @@
+PODS:
+  - CRConfirmOrderServiceProtocol (0.0.1)
+  - CRProtocolManager (0.0.1)
+
+DEPENDENCIES:
+  - CRConfirmOrderServiceProtocol
+  - CRProtocolManager
+
+SPEC CHECKSUMS:
+  CRConfirmOrderServiceProtocol: 8afc1d8146beb4b7b902d5b07b2766cdf918cd52
+  CRProtocolManager: 59fe3a44dd99d02fb8ca09394554125d09ef6f5b
+
+PODFILE CHECKSUM: 787fb42b364b3652e7740cfd4d0923937ed849f6
+
+COCOAPODS: 1.1.1
